@@ -1,0 +1,36 @@
+<html>
+<head>
+  <script type ="text/css" src="application.css"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
+  <script>
+
+$(function){
+
+  $('.count-button').click(function(event){
+  event.preventDefault();
+
+  var request $.ajax({
+  url: '/count'
+  type: 'POST'
+  data: {count: 1}
+  })
+} )
+}
+
+</script>
+  <title>My Page</title>
+
+</head>
+<body>
+<div class="a">
+  <div class="b">
+    <div class="c">
+      <h1 id="foo"> hello world </h1>
+
+      <h2 id = "kind"> plain </h2>
+   </div>
+  </div>
+</div>
+<button>click me</button>
+</body>
+</html>

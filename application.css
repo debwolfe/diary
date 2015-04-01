@@ -1,0 +1,19 @@
+
+
+.container {
+  margin: 20px auto;
+  width: 800px;
+  padding: 0px 20px 20px 20px;
+}
+
+  .actionable{
+    border: 1px dotted Chartreuse;
+  }
+
+  .kind{
+    border: 1px dotted DarkMagenta;
+  }
+
+  .specific{
+    border: 1 px dotted DarkBlue;
+  }

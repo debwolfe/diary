@@ -1,0 +1,25 @@
+assessment notes
+
+clone. make our own branch. commit early and often
+
+end of day.
+
+sinatra part one 90  minutes -- event management
+CRUD
+user authentication
+controllers
+AJAX a form
+
+migrations users have many events
+models
+user authentication
+  bcrypt
+  password hash
+  helpers
+controller routes
+  edit
+  show
+  destroy
+
+
+part two object oriented javascript
